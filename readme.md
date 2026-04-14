@@ -14,7 +14,8 @@
     - install using the apt repository
     - allow non-priviledge users with the post installation steps
 
--
+- VS Code: https://code.visualstudio.com/docs/setup/linux#_install-vs-code-on-linux
+
 - Bashrc:
 
 ```sh
