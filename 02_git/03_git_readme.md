@@ -40,6 +40,7 @@ Example:
 git clone https://github.com/ipa-may/workshop_day1.git
 ```
 
+#
 
 `git status`
 
@@ -216,3 +217,35 @@ When to use `SSH`:
 - convenient for regular Git users
 - useful when you push often
 - avoids typing username or password prompts in many setups
+
+
+# Changing the remote URL
+
+Sometimes a repository is cloned with `HTTPS`, but later you want to use `SSH` instead.
+
+You can change the remote named `origin` with:
+
+```bash
+git remote set-url origin git@github.com:ipa-may/workshop_day1.git
+```
+
+This tells Git to use the SSH address for the remote called `origin`.
+
+To check the configured remotes, run:
+
+```bash
+git remote -v
+```
+
+Example output:
+
+```text
+origin  git@github.com:ipa-may/workshop_day1.git (fetch)
+origin  git@github.com:ipa-may/workshop_day1.git (push)
+```
+
+This is useful if:
+
+- you first cloned with `HTTPS`
+- you later configured an SSH key
+- you want to push using `SSH`
