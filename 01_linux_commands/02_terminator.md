@@ -19,7 +19,7 @@ Then use `pwd` in each terminal to understand where you are and copy the file mo
 
 `Ctrl + Shift + T` : Open a new tab.
 
-`Ctrl + Tab` : Move between terminals.
+`Ctrl + Tab` OR ` Ctrl + Shift + N` : Move between terminals.
 
 `Ctrl + Shift + W` : Close the current terminal.
 
