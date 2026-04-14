@@ -46,4 +46,6 @@ https://ros2-industrial-workshop.readthedocs.io/en/latest/
 ## Useful links
 
 1. https://docs.ros.org/en/jazzy/Tutorials/Beginner-CLI-Tools.html
-2. 
+2. ROS-I workshop: https://ros-industrial.github.io/ros2_i_training/ (corrected)
+
+3. ROS metrics: https://metrics.ros.org/
