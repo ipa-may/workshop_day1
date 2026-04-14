@@ -14,7 +14,7 @@
     - install using the apt repository
     - allow non-priviledge users with the post installation steps
 
-
+-
 - Bashrc:
 
 ```sh
@@ -40,3 +40,9 @@ ROS_DOMAIN_ID
 ## Material
 
 https://ros2-industrial-workshop.readthedocs.io/en/latest/
+
+
+## Useful links
+
+1. https://docs.ros.org/en/jazzy/Tutorials/Beginner-CLI-Tools.html
+2. 
