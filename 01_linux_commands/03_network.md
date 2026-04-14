@@ -144,3 +144,5 @@ Connect to the ros-industrial network.
 
 Your IP address should be `192.168.3.X`.
 
+What is your IP?
+Can you ping your neighbors?

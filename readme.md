@@ -15,6 +15,17 @@
     - allow non-priviledge users with the post installation steps
 
 
+- Bashrc:
+
+```sh
+source /opt/ros/jazzy/setup.bash
+source /usr/share/colcon_argcomplete/hook
+
+#export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+export ROS_DOMAIN_ID=0
+```
+
 ## Exercices
 
 1. Linux Commands
