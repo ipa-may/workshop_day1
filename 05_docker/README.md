@@ -13,7 +13,7 @@ Shows the installed Docker version.
 ## Pull an Image
 
 ```bash
-docker pull ubuntu:22.04
+docker pull ubuntu:24.04
 ```
 
 Downloads an image from Docker Hub.
@@ -29,7 +29,7 @@ Shows all images stored on your computer.
 ## Run a Container
 
 ```bash
-docker run -it ubuntu:22.04
+docker run -it ubuntu:24.04
 ```
 
 Starts a container and opens an interactive terminal.
@@ -37,7 +37,7 @@ Starts a container and opens an interactive terminal.
 ## Run a Container with a Name
 
 ```bash
-docker run -it --name my_container ubuntu:22.04
+docker run -it --name my_container ubuntu:24.04
 ```
 
 Starts a container and gives it a simple name.
@@ -93,7 +93,7 @@ Deletes a stopped container.
 ## Remove an Image
 
 ```bash
-docker rmi ubuntu:22.04
+docker rmi ubuntu:24.04
 ```
 
 Deletes an image from your computer.
@@ -157,4 +157,3 @@ docker compose up --build
 ```
 
 Builds images again if needed and then starts the services.
-
