@@ -1,6 +1,9 @@
-<h1 style="color: red;">🔴 Deprecated, the content was merged to <a href="https://ros-industrial.github.io/ros2_i_training/">ROS 2 Industrial Training</a></h1>
-
 # Training Material for day 1
+
+## ⚠️ Attention
+
+**This repo workshop is deprecated. Its content was merged to [ros2_i_training](https://ros-industrial.github.io/ros2_i_training/)**
+
 
 
 ## Installations
